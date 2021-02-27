@@ -21,6 +21,8 @@ public class Main {
 		zoo.AdaugareAnimal(g2);
 		
 		zoo.HranesteAnimale();
+		
+		zoo.mutareAnimale();
 
 	}
 

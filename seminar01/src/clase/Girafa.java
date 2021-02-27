@@ -15,4 +15,18 @@ public Girafa(String nume, int inaltime) {
 }
 
 
+public int getInaltime() {
+	return inaltime;
+}
+
+public void setInaltime(int inaltime) {
+	this.inaltime = inaltime;
+}
+
+@Override
+public void merge() {
+	System.out.println("Girafa merge cu capul pe sus");
+	
+}
+
 }
